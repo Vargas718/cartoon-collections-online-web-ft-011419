@@ -19,15 +19,12 @@ def long_planeteer_calls(planeteers)
   
 end
 
-def find_the_cheese(queso)
+def find_the_cheese(list)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  queso.find do |yum| 
-    if cheese_types.include?(yum)
-      return yum
-    end
+  list.find do |yum| 
+    cheese_types.include?(yum)
   end
-  nil
 end
 
 "1. Dopey"
