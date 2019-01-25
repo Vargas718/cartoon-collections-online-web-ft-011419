@@ -1,8 +1,8 @@
 def roll_call_dwarves(dwarf)
-  counter = 1
-  dwarf.each_with_index do |d| 
-    puts "#{counter} #{d}"
-  counter += 1   
+ # counter = 1
+  dwarf.each_with_index do |i, d| 
+    puts "#{i + 1} #{d}"
+  #counter += 1   
   end
 end
 
