@@ -29,6 +29,7 @@ def find_the_cheese(queso)
       end
     end
   end
+  nil
 end
 
 "1. Dopey"
