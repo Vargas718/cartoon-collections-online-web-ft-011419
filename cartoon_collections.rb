@@ -20,8 +20,15 @@ def long_planeteer_calls(planeteers)
 end
 
 def find_the_cheese(queso)
-  
   cheese_types = ["cheddar", "gouda", "camembert"]
+  
+  queso.each do |yum| 
+    cheese_types.each do |type|
+      if type == yum
+        return yum
+      end
+    end
+  
   queso
 end
 
