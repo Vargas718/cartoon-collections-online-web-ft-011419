@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(planeteers)
   planeteers.map do |goplanet| 
-   goplanet.capitalize
+   "#{goplanet.capitalize}!"
  end
 end
 
