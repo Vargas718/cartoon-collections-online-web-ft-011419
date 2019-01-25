@@ -7,7 +7,7 @@ def roll_call_dwarves(dwarf)
 end
 
 def summon_captain_planet(planeteers)
-  planeteers.each do |goplanet| 
+  planeteers.map do |goplanet| 
    goplanet.capitalize
  end
 end
