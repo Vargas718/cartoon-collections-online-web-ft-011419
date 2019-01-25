@@ -22,7 +22,7 @@ end
 def find_the_cheese(queso)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  queso.each do |yum| 
+  queso.find do |yum| 
     if cheese_types.include?(yum)
       return yum
     end
