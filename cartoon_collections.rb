@@ -28,8 +28,6 @@ def find_the_cheese(queso)
         return yum
       end
     end
-  
-  queso
 end
 
 "1. Dopey"
