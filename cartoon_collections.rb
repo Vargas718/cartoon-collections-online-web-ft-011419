@@ -19,7 +19,13 @@ def long_planeteer_calls(planeteers)
   
 end
 
-
+snacks = ["crackers", "gouda", "thyme"]
+find_the_cheese(snacks)
+#=> "gouda"
+ 
+soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
+find_the_cheese(soup)
+#=> "cheddar"
 
 def find_the_cheese(queso)
   
