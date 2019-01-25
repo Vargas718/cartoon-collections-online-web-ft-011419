@@ -27,7 +27,7 @@ def find_the_cheese(list)
   end
 end
 
-[1,2,3,4,5].find do |number|
+[1,2,3,4,5].select do |number|
   number > 2
 end
 "1. Dopey"
